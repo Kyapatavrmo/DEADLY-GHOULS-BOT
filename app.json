@@ -1,5 +1,5 @@
 {
-  "name": "𝐃𝐄𝐀𝐃𝐋𝐘 𝐆𝐇𝐎𝐔𝐋𝐒 𝐁𝐎𝐓",
+    "name": "𝐃𝐄𝐀𝐃𝐋𝐘 𝐆𝐇𝐎𝐔𝐋𝐒 𝐁𝐎𝐓",
     "description": "DeadlyGhouls Bot is one of the Best UserBot for Telegram. Known for its Smoothness, Design, Support.",
     "logo": "https://telegra.ph/file/c5148795f46fb78bab9b9.jpg",
     "keywords": [
@@ -29,8 +29,8 @@
     },
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .mafia Command.",
-      "value": "😈𝐃𝐄𝐀𝐃𝐋𝐘 𝐆𝐇𝐎𝐔𝐋𝐒 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄😈",
-      "required": false
+       "value": "😏 ग़लतफ़हमी मत पाल तू कि तेरा #राज है.. बेटा आकर देख ले..👀 कौन किसका बाप है..😈😏",
+       "required": false
     },
     "ALIVE_PIC": {
       "description": "Put here any telegraph media link for alive pic in .mafia command.",
