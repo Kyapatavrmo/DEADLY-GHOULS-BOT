@@ -6,10 +6,10 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $DEADLY_GHOULS_REPO == "DEADLY-GHOULS-BOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2RlYWRseS1maWdodGVycy9ERUFETFktR0hPVUxTLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlwIA==" | base64 -d
     elif [[ $DEADLY_GHOULS_REPO == "DEADLY-GHOULS-BOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2RlYWRseS1maWdodGVycy9ERUFETFktR0hPVUxTLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlwIA==" | base64 -d
     elif [[ $DEADLY_GHOULS_REPO =~ $regex ]]
     then
         if [[ $DEADLY_GHOULS_REPO_BRANCH ]]
@@ -19,7 +19,7 @@ _get_repolink () {
             echo "${DEADLY_GHOULS_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL2RlYWRseS1maWdodGVycy9ERUFETFktR0hPVUxTLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlwIA==" | base64 -d
     fi
 }
 
