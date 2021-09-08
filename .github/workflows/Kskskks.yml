@@ -1,0 +1,57 @@
+
+DEADLY-FIGHTERS
+/
+DEADLY-GHOULS-BOT
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+DEADLY-GHOULS-BOT/.github/workflows/Ok.yml
+@DEADLY-FIGHTERS
+DEADLY-FIGHTERS Create Ok.yml
+ 1 contributor
+39 lines (20 sloc)  602 Bytes
+name: LEGENDX
+
+on: push
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - name: Find and Replace
+
+        uses: jacobtomlinson/gha-find-replace@master
+
+        with:
+
+          find: "mafiabot"
+
+          replace: "deadly-ghouls-bot"
+
+      - name: Create Pull Request
+
+        uses: stefanzweifel/git-auto-commit-action@v4
+
+        with:
+
+          commit_message: 'MA KI CHUT VRMO🙈💋'
+
+          commit_options: '--no-verify'
+
+          repository: .
+
+          commit_user_name: LEGENDXOP
+
+          commit_user_email: legendxx08377@gmail.com
