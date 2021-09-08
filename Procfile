@@ -1,1 +1,1 @@
-worker: bash DeadlyGhouls-Bot
+worker: bash DeadlyGhouls
